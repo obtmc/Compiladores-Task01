@@ -31,4 +31,5 @@ for i in range(0,size):
 print ('\nSaída: ', result[0], '\n');
 fileOut = open('Saida.txt', 'w');
 fileOut.write(str(result[0]));
+fileOut.close();
 
